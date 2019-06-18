@@ -1,0 +1,6 @@
+framework module Pods_VenuesTest {
+  umbrella header "Pods-VenuesTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
