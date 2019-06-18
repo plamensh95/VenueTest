@@ -260,8 +260,15 @@ extension VenuesViewController: CLLocationManagerDelegate {
         }
     }
     
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        switch status {
+        case .authorizedWhenInUse:
+            detectLocation()
+        default:
+            viewState = .empty
+        }
+    }
     
-    // CLLocationDelegate methods
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.first {
             presenter.locationCoordinatesDetected(location: location)

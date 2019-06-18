@@ -10,8 +10,6 @@
 		2567D37F22B92F5300548630 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2567D37E22B92F5300548630 /* APIConstants.swift */; };
 		2567D38122B937C900548630 /* MKMapView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2567D38022B937C900548630 /* MKMapView+Extensions.swift */; };
 		2581E7F922B371EE0094B2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581E7F822B371EE0094B2D4 /* AppDelegate.swift */; };
-		2581E7FB22B371EE0094B2D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581E7FA22B371EE0094B2D4 /* ViewController.swift */; };
-		2581E7FE22B371EE0094B2D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2581E7FC22B371EE0094B2D4 /* Main.storyboard */; };
 		2581E80022B371EF0094B2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2581E7FF22B371EF0094B2D4 /* Assets.xcassets */; };
 		2581E80322B371EF0094B2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2581E80122B371EF0094B2D4 /* LaunchScreen.storyboard */; };
 		2581E81422B3749A0094B2D4 /* Venues.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2581E80D22B3749A0094B2D4 /* Venues.storyboard */; };
@@ -55,8 +53,6 @@
 		2567D38022B937C900548630 /* MKMapView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MKMapView+Extensions.swift"; path = "../../../../../../.Trash/MKMapView+Extensions.swift"; sourceTree = "<group>"; };
 		2581E7F522B371EE0094B2D4 /* VenuesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenuesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2581E7F822B371EE0094B2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2581E7FA22B371EE0094B2D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2581E7FD22B371EE0094B2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2581E7FF22B371EF0094B2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2581E80222B371EF0094B2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2581E80422B371EF0094B2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,8 +129,6 @@
 				2581E80B22B373E20094B2D4 /* Scenes */,
 				2581E80C22B374230094B2D4 /* Utils */,
 				2581E7F822B371EE0094B2D4 /* AppDelegate.swift */,
-				2581E7FA22B371EE0094B2D4 /* ViewController.swift */,
-				2581E7FC22B371EE0094B2D4 /* Main.storyboard */,
 				2581E7FF22B371EF0094B2D4 /* Assets.xcassets */,
 				2581E80122B371EF0094B2D4 /* LaunchScreen.storyboard */,
 				2581E80422B371EF0094B2D4 /* Info.plist */,
@@ -341,7 +335,6 @@
 				2581E80322B371EF0094B2D4 /* LaunchScreen.storyboard in Resources */,
 				2581E80022B371EF0094B2D4 /* Assets.xcassets in Resources */,
 				2581E81422B3749A0094B2D4 /* Venues.storyboard in Resources */,
-				2581E7FE22B371EE0094B2D4 /* Main.storyboard in Resources */,
 				2581E82422B377070094B2D4 /* VenueDetails.storyboard in Resources */,
 				25DF320A22B76D6E0019F37C /* VenueTableViewCell.xib in Resources */,
 			);
@@ -422,7 +415,6 @@
 				25DF320D22B76DCE0019F37C /* CardView.swift in Sources */,
 				2581E81522B3749A0094B2D4 /* VenuesPresenter.swift in Sources */,
 				2581E81A22B3749A0094B2D4 /* VenuesConfigurator.swift in Sources */,
-				2581E7FB22B371EE0094B2D4 /* ViewController.swift in Sources */,
 				2581E83022B37CF70094B2D4 /* Venue.swift in Sources */,
 				2581E84522B3B95C0094B2D4 /* AlertManager.swift in Sources */,
 				2581E82822B377070094B2D4 /* VenueDetailsProtocols.swift in Sources */,
@@ -442,14 +434,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2581E7FC22B371EE0094B2D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2581E7FD22B371EE0094B2D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2581E80122B371EF0094B2D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
